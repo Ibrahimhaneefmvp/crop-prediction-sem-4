@@ -1,5 +1,5 @@
 # streamlit run your_script_name.py
-!pip install scikit-learn
+pip install streamlit pandas scikit-learn matplotlib seaborn numpy
 import streamlit as st
 import pandas as pd
 from sklearn.model_selection import train_test_split
